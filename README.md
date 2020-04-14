@@ -49,8 +49,7 @@ Before the SDK can be used, the SDK can be added to your project by adding this 
 ### Create a HyperVerge Instance
 
 ```javascript
-let hvCamera = new createHypervergeInstance(
-{
+let hvCamera = new createHypervergeInstance({
     params: {}
 })
 ```
@@ -110,12 +109,11 @@ function callback(imagesrc, blobImg) {
     - OTHER: This is for aspect ratios that don't fall in the above categories. In this case, the aspect ratio should be set as shown.
 
       ```javascript
-      let yourVariable = new createHypervergeInstance(
-        {
-            params:{
-                ratio: 1
-            }
-        })
+      let hvCamera = new createHypervergeInstance({
+          params:{
+              ratio: 1
+          }
+      })
       ```
 
       Following documents might require `OTHER` aspect ratio.
