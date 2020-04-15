@@ -9,7 +9,7 @@ Adding the SDK to your project is as simple as following these steps:
 
 - Add the SDK source in your project in your `head` tag.
 
-```javascript
+```html
 <script src="https://hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com/HypervergeSDK.js"></script>
 ```
 
@@ -43,8 +43,11 @@ let selfieCapture = new createHypervergeInstance({
 
 ### Adding the SDK to your project
 
-Before the SDK can be used, the SDK can be added to your project by adding this code in your HTML code.
+Before the SDK can be used, the SDK can be added to your project by adding this code to your HTML head tag.
 
+```html
+<script src="https://hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com/HypervergeSDK.js"></script>
+```
 
 ### Create a HyperVerge Instance
 
@@ -123,5 +126,3 @@ function callback(imagesrc, blobImg) {
   
 ---
 For any support, please reach out to our [Support Team](mailto:support@hyperverge.co).
-
-
